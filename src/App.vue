@@ -1,12 +1,14 @@
-<script setup>
-
-</script>
-
 <template>
-  <div>
-    <RouterView />  
+  <div class="app">
+    <TopNavigation />
+    <div class="routerview">
+      <RouterView />
+    </div>
   </div>
 </template>
 
-<style scoped>
-</style>
+<script setup>
+import TopNavigation from "@/components/TopNavigation/index.vue";
+</script>
+
+<style scoped lang="scss"></style>
